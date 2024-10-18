@@ -1,15 +1,18 @@
----------------------Что нужно-----------------------:
-Желательна иметь поддержку Nerd fonts в твоем терминале
+## What need:
 
----------------------Как юзать-----------------------:
+Nerd Fonts
+
+## How to use:
+
 sh .../wfic.sh "CityName" "Days"
 
 Колл дней не меньше 1 и больше 10
 Example: sh /home/timur/wfic/wfic.sh "Tokyo" "7"
 
----------------------Пример конфига------------------:
-//Путь к конфигу должен быть таким /home/xxx/.config/wfic/config.ngrConfig
-//Коменты писать строго в отдельных линиях и как показано тут
+## Config example
+
+//The path to the configuration should be like this: /home/xxx/.config/wfic/config.ngrConfig
+//Comments write after two slashes
 textColor=5;
 daysColor=10;
 temColor=11;
@@ -22,12 +25,11 @@ morningColor=14;
 
 userName=Timur;
 apiKey=xxx;
-//Тут твой apiKey из https://www.weatherapi.com/
+//You make the apiKey there: https://www.weatherapi.com/
 
-//Только желательно не юзай крастный и желтый, их юзает приложение когда выводит warn и error
-//Хотя знаешь, похуй, забей, если будет ошибка сразу поймешь.
-// DarkBlue = 1,
+//Colors:
 // Black = 0,
+// DarkBlue = 1,
 // DarkGreen = 2,
 // DarkCyan = 3,
 // DarkRed = 4,
