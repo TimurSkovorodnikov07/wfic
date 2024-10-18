@@ -1,3 +1,5 @@
+![Example](https://github.com/TimurSkovorodnikov07/wfic/blob/main/firstExample.png)
+
 ## What need:
 
 Nerd Fonts
